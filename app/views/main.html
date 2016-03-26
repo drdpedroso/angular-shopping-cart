@@ -1,0 +1,31 @@
+<h3>Esfihas</h3>
+  <table class="table">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Carne</td>
+          <td>
+            <input type="number" ng-change="main.submitTo(main.fields)" ng-model="main.fields.carne.qnt" min="0"></input>
+          </td>
+        </tr>
+        <tr>
+          <td>Queijo</td>
+          <td>
+            <input type="number" ng-change="main.submitTo(main.fields)" ng-model="main.fields.queijo.qnt" min="0"></input>
+          </td>
+        </tr>
+        <tr>
+          <td>Frango</td>
+          <td>
+            <input type="number" ng-change="main.submitTo(main.fields)" ng-model="main.fields.frango.qnt" min="0"></input>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<pre>{{main.fields}}</pre>
